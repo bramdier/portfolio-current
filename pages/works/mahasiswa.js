@@ -10,7 +10,9 @@ const Work = () => (
         Web Assesment Lepkom <Badge>2021-</Badge>
       </Title>
       <P>
-      The Web-Based Assessment System at LEPKOM Institution is designed to evaluate and track all student activities comprehensively. This system provides an efficient and transparent method for assessing students' academic progress, practical skills, and participation in institutional activities.
+      The Web-Based Assessment System at LEPKOM Institution is designed to evaluate and track all
+      student activities comprehensively. This system provides an efficient and transparent method
+      for assessing students academic progress, practical skills, and participation in institutional activities.
       </P>
       <List ml={4} my={4}>
         <ListItem>
