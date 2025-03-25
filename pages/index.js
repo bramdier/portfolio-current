@@ -17,7 +17,7 @@ import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { GridItem } from '../components/grid-item'
-import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub, IoLogoBehance } from 'react-icons/io5'
+import { IoLogoInstagram, IoLogoGithub, IoLogoBehance } from 'react-icons/io5'
 import thumbYouTube from '../public/images/links/youtube2.jpg'
 import thumbChannel from '../public/images/works/age.jpg'
 import Image from 'next/image'
@@ -79,7 +79,7 @@ const Home = () => (
           Summary
         </Heading>
         <Paragraph>
-          I am a Web Developer with over four years of experience in software development,
+          I am senior software enginner with over four years of experience in software development,
           specializing in backend web development and build scalable, efficient systems.
           Currently, I work in the insurance industry, developing high-performance solutions
           that drive business success.
@@ -107,7 +107,7 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>2019</BioYear>
-          IT Staff at Lepkom University
+          IT Staff at Lepkom Gunadarma
         </BioSection>
       </Section>
 
@@ -146,17 +146,6 @@ const Home = () => (
                 leftIcon={<IoLogoGithub />}
               >
                 @abrahamspr
-              </Button>
-            </Link>
-          </ListItem>
-          <ListItem>
-            <Link href="https://twitter.com/abraham_spr" target="_blank">
-              <Button
-                variant="ghost"
-                colorScheme="teal"
-                leftIcon={<IoLogoTwitter />}
-              >
-                @abraham_spr
               </Button>
             </Link>
           </ListItem>

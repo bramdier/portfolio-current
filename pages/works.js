@@ -20,13 +20,13 @@ const Works = () => (
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
 
-      <Section delay={0.1}>
+        <Section delay={0.1}>
           <WorkGridItem
             id="mahasiswa"
             title="Web Assesment Lepkom"
             thumbnail={thumbAssesment}
           >
-            Web Penilaian Kursus
+            Student Assesment Application
           </WorkGridItem>
         </Section>
 
@@ -36,19 +36,19 @@ const Works = () => (
             title="Loja Music"
             thumbnail={thumbWalknote}
           >
-            Loja Music
+            Music Player Application
           </WorkGridItem>
         </Section>
 
         <Section delay={0.1}>
           <WorkGridItem id="survey" thumbnail={thumbSurvey} title="Survey App">
-            An app that have feature to make a survey like google form.
+            Survey Application
           </WorkGridItem>
         </Section>
 
         <Section delay={0.1}>
           <WorkGridItem id="gif" thumbnail={thumbGif} title="Gif Generator">
-            An app that can generate gif what we need.
+            GIF generator application
           </WorkGridItem>
         </Section>
 
@@ -67,24 +67,24 @@ const Works = () => (
           <WorkGridItem
             id="rohani"
             thumbnail={thumbRohani}
-            title="Musik Video"
+            title="Worship Music Video"
           >
-            Video Musik Lagu Rohani
+            Youtube video from Binsar Napitu
           </WorkGridItem>
         </Section>
         <Section delay={0.3}>
-          <WorkGridItem id="vektor" thumbnail={thumbVektor} title="Video Edukasi">
-            Video Pembelajaran Kelas X SMA
+          <WorkGridItem id="vektor" thumbnail={thumbVektor} title="Education Video">
+            Youtube Video from Binsar Napitu
           </WorkGridItem>
         </Section>
         <Section delay={0.3}>
-          <WorkGridItem id="kapasitor" thumbnail={thumbKapasitor} title="Video Edukasi">
-            Video Pembelajaran Kelas X SMA
+          <WorkGridItem id="kapasitor" thumbnail={thumbKapasitor} title="Education Video">
+            Youtube Video from Binsar Napitu
           </WorkGridItem>
         </Section>
       </SimpleGrid>
 
-        
+
     </Container>
   </Layout>
 )
