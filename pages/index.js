@@ -45,7 +45,7 @@ const Home = () => (
           <Heading as="h2" variant="page-title">
             Abraham Dier Spiez
           </Heading>
-          <p>Software Enginner at KB Insurance Indonesia</p>
+          <p>Software Enginner at Semesta Energy Service</p>
         </Box>
         <Box
           flexShrink={0}
@@ -98,8 +98,12 @@ const Home = () => (
           Experience
         </Heading>
         <BioSection>
+          <BioYear>2025</BioYear>
+          Senior Software Engineer at Semesta Energy Service
+        </BioSection>
+        <BioSection>
           <BioYear>2023</BioYear>
-          Senior Software Enginner at KB Insurance Indonesia
+          Senior Web Developer at KB Insurance Indonesia
         </BioSection>
         <BioSection>
           <BioYear>2022</BioYear>
